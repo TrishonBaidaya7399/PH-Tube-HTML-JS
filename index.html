@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"
+data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon icon -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <title>PH TUBE</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- DaisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body class="mx-[10px] lg:mx-[60px]">
+    <header>
+        <section>
+            <nav class="flex flex-row justify-between mt-[50px]  border-b-2 pb-[34px]">  
+                <div id="logo">
+                    <img src="./images/Logo.png" alt="">
+                </div>
+                <div id="sort-button">
+                    <button id="btn-sort-by-view" class="btn sort-btn border-none bg-gray-200 py-[10px] px-[20px] rounded-lg text-gray-500 ">Sort by view</button>
+                </div>
+                <div id="blog">
+                    <a href="./Blog/blog.html">
+                        <button class="btn btn-primary bg-[#FF1F3D] border-none">Blog</button>
+                    </a>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <section id="category-buttons" class="mx-[10px] mt-[30px] mb-[50px] flex flex-row gap-[10px] lg:gap-[23px] justify-center">
+        <button id="btn-all" class="btn btn-primary bg-gray-200 border-none text-gray-500 py-[8px] px-[20px]" >All</button>
+        <button id="btn-music" class="btn btn-primary bg-gray-200 border-none text-gray-500 py-[8px] px-[20px]" >Music</button>
+        <button id="btn-comedy" class="btn btn-primary bg-gray-200 border-none text-gray-500 py-[8px] px-[20px]" >Comedy</button>
+        <button id="btn-drawing" class="btn btn-primary bg-gray-200 border-none text-gray-500 py-[8px] px-[20px]" >Drawing</button>
+    </section>
+    <main>
+        <section id="card-container" class="card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">`
+        
+        </section>
+    </main>
+<!-- Script -->
+<!-- JS link -->
+<script src="./JS/script.js"></script>
+    
+</body>
+</html>

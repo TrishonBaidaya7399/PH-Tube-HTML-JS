@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* .btn:active{
+    background: #FF1F3D;
+} */
+.error-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Button when it's clicked (active) */
+.btn.btn-primary:active,
+.btn.btn-primary:focus {
+    background-color: #FF1F3D;
+    color: white;
+    /* Add any other styles you want for the active state */
+}
+.btn.btn-primary:hover{
+    background-color: #FF1F3D;
+    color: white;
+}
+.sort-btn:active,
+.sort-btn:focus {
+    background-color: #FF1F3D;
+    color: white;
+    /* Add any other styles you want for the active state */
+}
+.sort-btn:hover{
+    background-color: #FF1F3D;
+    color: black;
+}
+.btn{
+    cursor: pointer;
+    color: white;
+}
